@@ -1,24 +1,40 @@
-# Assets License & Copyright Notice
+# Asset License and Attribution
 
-This project includes fan-made mod content for the game *Sid Meier's Civilization VI*.
+This Civilization VI mod is a fan project created for personal and educational purposes.  
+It includes references to visual and audio assets from external copyrighted works.
 
-## 📦 Image Assets
+---
 
-Some image and media assets used in this mod are based on or derived from screenshots of the anime **[Your Anime Name]**.
+## 🎨 Visual Assets
 
-These assets:
-- Are used under a non-commercial, fan-derivative use.
-- Have been modified (e.g., edited or extended via Photoshop).
-- Remain the intellectual property of **[Anime Studio / Publisher]**.
+- **Source**: Screenshots and visual elements are derived from the anime adaptation of *Azumanga Daioh* (あずまんが大王), produced by J.C.STAFF and licensed by relevant copyright holders.
+- **Usage**: All visual assets used in the in-game mod (in `.xlp` or `.blp` format) are **not included** in this repository. They are transformed and compiled by the official Civ6 modding tools during the build process.
+- **Note**: These assets are provided in the final game mod for **non-commercial**, **educational**, and **personal** use only, and remain the intellectual property of their original creators.
 
-This project does **not** claim any rights to the original visual works from the anime. All copyrighted content belongs to their respective owners.
+---
 
-If any rights holder requests the removal of specific material, we will comply immediately.
+## 🎵 Audio Assets
 
-## 💼 Code License
+- **Source**: Background music used in this mod originates from the *Azumanga Daioh* anime soundtrack, performed by 栗コーダーカルテット (Kuricorder Quartet).
+- **Format**: The music is compiled as `.wem` soundbank files through Audiokinetic Wwise, and **not included** in this repository.
+- **Usage**: These files are used exclusively within the context of the Civilization VI mod. No audio files are redistributed here on GitHub.
 
-All original code in this repository is licensed under the MIT License (see [LICENSE](./LICENSE)).
+---
 
-## 🚫 Commercial Use
+## ⚠️ Disclaimer
 
-This project is strictly **non-commercial**. It is distributed solely for fan appreciation and personal use in the Civilization VI community.
+All external assets referenced by this mod remain under the copyright of their respective owners.  
+No infringement is intended. This project is:
+- Non-commercial
+- Fan-made
+- For entertainment and educational purposes only
+
+If you are the copyright holder and have concerns, please contact me for prompt resolution.
+
+---
+
+## 💡 How to Use This Repository
+
+This GitHub repository contains only the **code, XML, SQL, Lua scripts, and mod metadata** required for the mod.  
+To complete the mod build, users must supply their own legally obtained visual and audio assets within the expected folder structure.
+
