@@ -85,6 +85,7 @@ If any part infringes upon intellectual property rights, please contact me for r
 
 ---
 
-*Thank you for your support! Positive ratings and feedback on Steam Workshop are highly appreciated.*  
+*Thank you for your support! Positive ratings and feedback on Steam Workshop are highly appreciated.*
+*If you find this project helpful or interesting, consider giving it a ⭐ on GitHub — your support motivates future development!*  
 ---
 
