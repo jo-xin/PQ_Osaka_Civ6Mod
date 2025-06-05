@@ -1,6 +1,5 @@
 # Azumanga Daioh Civilization VI Mod
 
-![Mod Preview](./path/to/your/preview-image.png)  
 *Link to Steam Workshop:* [Azumanga Daioh Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3476784880)
 
 ---
