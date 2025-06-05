@@ -8,19 +8,16 @@
 
 This is a fan-made Civilization VI mod that adds a new civilization based on the anime *Azumanga Daioh*, featuring unique units, improvements, districts, and music.
 
-This repository contains the **mod development project**, including code, XML, Lua scripts, and metadata required to build the mod.  
+This repository contains the **mod development project**, including code, XML, SQL, Lua scripts, and metadata required to build the mod.  
 **It does NOT include copyrighted visual or audio assets** such as images or music files, which are handled separately due to copyright restrictions.
 
 ---
 
 ## Features
 
-- **New Civilization:** Azumanga Daioh  
-- **Unique Unit:** Chiyo-Chichi, a recon unit with special movement and combat traits  
-- **Unique Improvement:** Summer House, boosting Amenities with some trade-offs  
-- **Unique District:** High School, a campus variant with unique adjacency bonuses  
-- **Leader:** Kasuga Ayumu (Osaka) with unique mechanics including Anarchy effects and inspiration boosts  
-- **Music:** 13 tracks from the Kuricorder Quartet's soundtrack (not included here)
+The codebase is well-documented, and you're welcome to reach out if you have any questions or need further explanation on how specific parts work.
+
+The `MassProduction/` directory includes technical components inspired by [RUIVO](https://steamcommunity.com/profiles/76561198864459088)'s work, particularly from the mod [Modular Adjacency Bonuses Core](https://steamcommunity.com/sharedfiles/filedetails/?id=3429735059).
 
 ---
 
@@ -32,18 +29,17 @@ To build and play the mod:
 
 1. Obtain the necessary visual and audio assets legally from the original sources or Steam Workshop version.
 2. Use Civilization VI's official mod tools (ModBuddy) to compile the mod project here.
-3. For music enhancement, consider installing the [BGM Fix Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2225900548) on Steam Workshop.
 
 ---
 
 ## License and Asset Use
 
-### Code License
+### [Code License](LICENSE)
 
 This project is licensed under the [MIT License](LICENSE).  
 Feel free to use and modify the code for personal, educational, and non-commercial purposes.
 
-### Assets License
+### [Assets License](./ASSETS_LICENSE.md)
 
 All visual and audio materials related to *Azumanga Daioh* are the property of their original rights holders, including:
 
@@ -76,7 +72,7 @@ If you have any copyright concerns, please contact the author for removal or res
 
 ## Contact
 
-- BiliBili: [hemmelfort](https://space.bilibili.com/28399130)  
+- [BiliBil](https://space.bilibili.com/96237361)
 - Email: joxin64@gmail.com
 
 ---
