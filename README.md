@@ -39,7 +39,7 @@ To build and play the mod:
 This project is licensed under the [MIT License](LICENSE).  
 Feel free to use and modify the code for personal, educational, and non-commercial purposes.
 
-### [Assets License](./ASSETS_LICENSE.md)
+### [Assets License](./ASSETS-LICENSE.md)
 
 All visual and audio materials related to *Azumanga Daioh* are the property of their original rights holders, including:
 
