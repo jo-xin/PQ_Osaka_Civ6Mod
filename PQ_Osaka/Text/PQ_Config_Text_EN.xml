@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_Config_Text_EN -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/28/2025 12:03:52 PM -->
+<GameData>
+	<BaseGameText>
+		<!-- Civilization and Leader -->
+		<Row Tag="LOC_CIVILIZATION_PQ_AZUMANGA_NAME">
+			<Text>AzuManga</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PQ_AZUMANGA_DESCRIPTION">
+			<Text>Azumanga Daioh</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PQ_AZUMANGA_ADJECTIVE">
+			<Text>AzuManga</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_LEADER_PQ_OSAKA_NAME">
+			<Text>Ayumu Kasuga</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_PQ_OSAKA">
+			<Text>Kasuga Ayumu, the great daydreamer from Kansai! Beneath your unhurried drawl lies an endless curiosity for the world. Even in daydreams, you unearth truths others rush past. Lead your people at your own pace, for there's no need to race against the clock — you've already paved civilization's most joyful path through daydreaming.</Text>
+		</Row>
+
+		
+		
+		<!-- Traits -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PQ_AZUMANGA_NAME">
+			<Text>Raspberry heaven</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PQ_AZUMANGA_DESCRIPTION">
+			<Text>A Chiyo-chichi will be placed near [ICON_Capital] capital next turn if you do not have one. Each [ICON_Amenities] Amenity provides +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_PQ_OSAKA_NAME">
+			<Text>Daydreamer from Osaka</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_PQ_OSAKA_DESCRIPTION">
+			<Text>All new cities will be considered on a different continent than [ICON_Capital] original capital. Triggering an [ICON_CivicBoosted] Inspiration will grant 30% progress toward a random technology with [ICON_TechBoosted] Eureka triggered. Enter Anarchy when unlocking new Government or world enters a new Era as long as Government has once been changed, and recovering grants a [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration from next Era. Policy and Government changes become free on the turn AFTER completing a Civic or ending Anarchy, but not immediately completing a Civic.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU_NAME">
+			<Text>High School</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU_DESCRIPTION">
+			<Text>A lower-costing unique campus district which gains extra much more [ICON_Science] Science from Summer House, extra [ICON_Science] Science from Theater Square or Entertainment Complex, but less from mountain tiles</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI_NAME">
+			<Text>Chiyo-chichi</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI_DESCRIPTION">
+			<Text>A unique Recon Unit which can jump, and becomes more powerful as game continues.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_PQ_BESSOU_NAME">
+			<Text>Summer House</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_PQ_BESSOU_DESCRIPTION">
+			<Text>A unique Tile Improvement which is similar to Seaside Resort, provides +1 extra [ICON_Amenities] Amenity but -1 [ICON_Production] Production until Education</Text>
+		</Row>
+
+		
+		
+		<!-- Unique -->
+		<Row Tag="LOC_DISTRICT_PQ_KOUKOU_NAME">
+			<Text>High School</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PQ_KOUKOU_DESCRIPTION">
+			<Text>A district unique to AzuManga with lower [Icon_Production] cost, replaces the Campus district. Gains extra huge bonus (+3 [ICON_Science]) for each Summer House, standard bonus (+1 [ICON_Science]) for each adjacent Theater Square or Entertainment Complex, but minus bonus (+0.5 [ICON_Science]) for each mountain tile</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PQ_CHIYOCHICHI_NAME">
+			<Text>Chiyo-chichi</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PQ_CHIYOCHICHI_DESCRIPTION">
+			<Text>A unique recon unit of AzuManga which can jump. Cannot be produced or purchased, cannot attack. Gains 10 [ICON_Strength] Combat Strength for each Era, and [ICON_Movement] mobility bonuses from world exploration.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PQ_BESSOU_NAME">
+			<Text>Summer House</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PQ_BESSOU_DESCRIPTION">
+			<Text>A unique tile improvement of AzuManga unlocked by civic Games and Recreation, which is similar to Seaside Resort, but can also be built on hills. Provides +1 [ICON_Amenities] Amenity, [ICON_Gold] Gold equal to the Appeal, and [ICON_Tourism] Tourism after technology Radio, but -1 [ICON_Production] Production until technology Education</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

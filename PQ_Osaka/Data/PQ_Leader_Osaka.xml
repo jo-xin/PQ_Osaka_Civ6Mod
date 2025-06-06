@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_Leader_Osaka -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/2/2025 8:45:33 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_PQ_OSAKA" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_PQ_OSAKA" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_PQ_OSAKA</LeaderType>
+			<Name>LOC_LEADER_PQ_OSAKA_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+		</Row>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_PQ_OSAKA" TraitType="TRAIT_LEADER_PQ_OSAKA"/>
+
+	</LeaderTraits>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_PQ_OSAKA" Quote="LOC_LEADER_PQ_OSAKA_QUOTE" QuoteAudio="PQ_QUOTE_OSAKA_SAATAANDAGI"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_PQ_OSAKA" Name="LOC_TRAIT_LEADER_PQ_OSAKA_NAME" Description="LOC_TRAIT_LEADER_PQ_OSAKA_DESCRIPTION"/>
+	</Traits>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_PQ_OSAKA" ForegroundImage="LEADER_PQ_OSAKA_FRONT.dds" BackgroundImage="LEADER_PQ_OSAKA_BACKGROUND.dds" PlayDawnOfManAudio="0" EraText="" LeaderText="LOC_LOADING_INFO_LEADER_PQ_OSAKA"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_PQ_OSAKA" BackgroundImage="LEADER_PQ_OSAKA_BACKGROUND.dds"/>
+	</DiplomacyInfo>
+
+</GameData>

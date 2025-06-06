@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_District_Koukou -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/2/2025 7:55:44 PM -->
+<GameData>
+
+	<Types>
+		<Row Type="DISTRICT_PQ_KOUKOU" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_PQ_KOUKOU" ReplacesDistrictType="DISTRICT_CAMPUS"/>
+	</DistrictReplaces>
+
+	<Districts>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" Name="LOC_DISTRICT_PQ_KOUKOU_NAME" Description="LOC_DISTRICT_PQ_KOUKOU_DESCRIPTION" PrereqTech="TECH_WRITING" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_TECHNOLOGY" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" TraitType="TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU"/>
+	</Districts>
+	
+	<Adjacency_YieldChanges>
+		<Row ID="Bessou_Science" Description="LOC_KOUKOU_BESSOU_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="3" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PQ_BESSOU"/>
+		<Row ID="EntertainmentComplex_Science" Description="LOC_DISTRICT_ENTERTAINMENT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row ID="Theater_Science" Description="LOC_DISTRICT_THEATER_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
+
+
+		<Row ID="Mountains_Science1_Half" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE1" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ID="Mountains_Science2_Half" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE2" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ID="Mountains_Science3_Half" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE3" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ID="Mountains_Science4_Half" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE4" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ID="Mountains_Science5_Half" Description="LOC_DISTRICT_MOUNTAINS_SCIENCE5" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>
+	</Adjacency_YieldChanges>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Bessou_Science"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="EntertainmentComplex_Science"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Theater_Science"/>
+
+
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Mountains_Science1_Half"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Mountains_Science2_Half"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Mountains_Science3_Half"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Mountains_Science4_Half"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Mountains_Science5_Half"/>
+		
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Jungle_Science"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="District_Science"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Geothermal_Science"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Reef_Science"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Government_Science"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="GBR_Science"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="Pamukkale_Science"/>
+
+
+		<!--<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldChangeId="LeyLine_Science"/>-->
+	</District_Adjacencies>
+
+
+
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_PQ_KOUKOU" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+</GameData>

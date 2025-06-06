@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_Unit_ChiyoChichi -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/2/2025 7:39:36 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_PQ_CHIYOCHICHI" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_PQ_CHIYOCHICHI" Kind="KIND_ABILITY"/>
+	</Types>
+	
+	<UnitAiInfos>
+		<Row UnitType="UNIT_PQ_CHIYOCHICHI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_PQ_CHIYOCHICHI" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<Tags>
+		<Row Tag="CLASS_PQ_CHIYOCHICHI" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<TypeTags>
+		<Row Type="UNIT_PQ_CHIYOCHICHI" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_PQ_CHIYOCHICHI" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_PQ_CHIYOCHICHI" Tag="CLASS_PQ_CHIYOCHICHI"/>
+		<Row Type="ABILITY_PQ_CHIYOCHICHI" Tag="CLASS_PQ_CHIYOCHICHI"/>
+	</TypeTags>
+	
+	<Units>
+		<Row UnitType="UNIT_PQ_CHIYOCHICHI" 
+			 Name="LOC_UNIT_PQ_CHIYOCHICHI_NAME" 
+			 Cost="100" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 Combat="10" 
+			 Domain="DOMAIN_LAND" 
+			 TraitType="TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			 PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" 
+			 PromotionClass="PROMOTION_CLASS_RECON" 
+			 BaseMoves="3" 
+			 ZoneOfControl="1" 
+			 BaseSightRange="3" 
+			 Description="LOC_UNIT_PQ_CHIYOCHICHI_DESCRIPTION" 
+			 CanTrain="false"/>
+	</Units>
+
+	<Units_XP2>
+		<Row UnitType="UNIT_PQ_CHIYOCHICHI" CanEarnExperience="false" CanFormMilitaryFormation="false" MajorCivOnly="true"/>
+	</Units_XP2>
+
+
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_PQ_CHIYOCHICHI" Name="LOC_ABILITY_PQ_CHIYOCHICHI_NAME" Description="LOC_ABILITY_PQ_CHIYOCHICHI_DESCRIPTION"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_PQ_CHIYOCHICHI</UnitAbilityType>
+			<ModifierId>MD_PQ_UNIT_CHIYOCHICHI_JUMP</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PQ_CHIYOCHICHI</UnitAbilityType>
+			<ModifierId>MD_PQ_UNIT_CHIYOCHICHI_IGNORE_ZOC</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PQ_CHIYOCHICHI</UnitAbilityType>
+			<ModifierId>CANNOT_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PQ_CHIYOCHICHI</UnitAbilityType>
+			<ModifierId>MODIFIER_PQ_UNIT_STRENGTH_WITH_PROPERTY</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_PQ_UNIT_STRENGTH_WITH_PROPERTY" Context="Preview" Text="LOC_MODIFIER_PQ_UNIT_STRENGTH_WITH_PROPERTY_DESCRIPTION"/>
+	</ModifierStrings>
+	
+	
+
+</GameData>

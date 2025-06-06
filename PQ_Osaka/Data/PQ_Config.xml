@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_Config -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/2/2025 10:30:54 PM -->
+<GameData>
+	<Players>
+		<!-- Expansion 2 Support  PortraitBackground="IMG_LOADING_BACKGROUND_INABA"  删去了 -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_PQ_AZUMANGA_DESCRIPTION" 
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_PQ_AZUMANGA" 
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_PQ_AZUMANGA_NAME" 
+			 CivilizationIcon="ICON_CIVILIZATION_PQ_AZUMANGA" 
+			 CivilizationName="LOC_CIVILIZATION_PQ_AZUMANGA_NAME" 
+			 CivilizationType="CIVILIZATION_PQ_AZUMANGA" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_PQ_OSAKA_DESCRIPTION" 
+			 LeaderAbilityIcon="ICON_LEADER_PQ_OSAKA" 
+			 LeaderAbilityName="LOC_TRAIT_LEADER_PQ_OSAKA_NAME" 
+			 LeaderIcon="ICON_LEADER_PQ_OSAKA" 
+			 LeaderName="LOC_LEADER_PQ_OSAKA_NAME" 
+			 LeaderType="LEADER_PQ_OSAKA" 
+			 Portrait="LEADER_PQ_OSAKA_FRONT.dds"  
+			 Domain="Players:Expansion2_Players"/>
+	</Players>
+
+	<PlayerItems>
+		<Row Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_PQ_AZUMANGA"
+			LeaderType="LEADER_PQ_OSAKA"
+			Type="DISTRICT_PQ_KOUKOU"
+			Name="LOC_DISTRICT_PQ_KOUKOU_NAME"
+			Description="LOC_DISTRICT_PQ_KOUKOU_DESCRIPTION"
+			Icon="ICON_DISTRICT_PQ_KOUKOU" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_PQ_AZUMANGA"
+			 LeaderType="LEADER_PQ_OSAKA"
+			 Type="UNIT_PQ_CHIYOCHICHI"
+			 Name="LOC_UNIT_PQ_CHIYOCHICHI_NAME" Description="LOC_UNIT_PQ_CHIYOCHICHI_DESCRIPTION"
+			 Icon="ICON_UNIT_PQ_CHIYOCHICHI" SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players"
+			CivilizationType="CIVILIZATION_PQ_AZUMANGA"
+			LeaderType="LEADER_PQ_OSAKA"
+			Type="IMPROVEMENT_PQ_BESSOU"
+			Name="LOC_IMPROVEMENT_PQ_BESSOU_NAME" Description="LOC_IMPROVEMENT_PQ_BESSOU_DESCRIPTION"
+			Icon="ICON_IMPROVEMENT_PQ_BESSOU" SortIndex="20"/>
+	</PlayerItems>
+</GameData>

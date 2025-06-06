@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_Text_CN -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/5/2025 11:23:42 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- Ingame Text-->
+		<Row Tag="LOC_MODIFIER_PQ_UNIT_STRENGTH_WITH_PROPERTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{Property} 从每个时代获得 10 力</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_PQ_CHIYOCHICHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由国家赞助的圣诞老人</Text>
+		</Row>
+		<Row Tag="LOC_KOUKOU_BESSOU_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻海滨别墅</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ENTERTAINMENT_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻娱乐中心</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_THEATER_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻剧院广场</Text>
+		</Row>
+		
+		
+		
+		<!-- Civilopedia -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PQ_AZUMANGA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>《阿兹漫画大王》（日语：あずまんが大王，英文：Azumanga Daioh）是由日本漫画家东清彦（笔名：あずまきよひこ）创作的四格漫画作品，首次连载于1999年的《月刊Comic电击大王》。其清新幽默的校园日常风格成为“日常系”漫画的经典先驱。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PQ_AZUMANGA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>作品以一所架空的日本高中为舞台，围绕几位性格迥异的女高中生展开，描绘她们在三年校园生活中的点滴趣事。主要角色包括天才跳级少女美滨千代、思维跳跃的“大阪”春日步、外冷内萌的榊、活泼捣蛋的泷野智、稳重理性的水原历，以及后期加入的体育少女神乐。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PQ_AZUMANGA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>本作采用四格漫画的格式，以轻松碎片化的方式展现日常片段，却意外地构建出连贯的成长与友谊主线。在细腻的节奏中，辅以大量对话式幽默和反差萌元素，呈现出一种既温馨又令人捧腹的氛围。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PQ_AZUMANGA_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>漫画于2002年被改编为同名动画，由J.C.STAFF负责制作，共26集。动画忠实还原原作气质，并通过节奏与配乐的优化，进一步强化了角色之间的互动魅力，受到观众热烈好评，被认为是“日常系动画”经典之作。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PQ_AZUMANGA_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>除动画以外，《阿兹漫画大王》还发展出包括广播剧CD、画集、角色主题歌曲、轻小说及Game Boy Advance游戏《Azumanga Daioh Advance》等多种衍生作品，广受粉丝喜爱。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PQ_AZUMANGA_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>本作的艺术风格及节奏感深刻影响了后续许多日常系作品，如《轻音少女》、《幸运星》、《日常》等。其对角色心理的细腻描绘与生活节奏的真实还原，也推动了“四格漫画”从搞笑走向情感共鸣的演变。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PQ_AZUMANGA_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>《阿兹漫画大王》虽于2002年完结，但其精神与风格至今仍影响着漫画与动画创作界，是校园群像剧与日常系作品的“原点”之一，被广泛称颂为日常类作品的黄金典范。</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_CIVINFO_PQ_CREATOR" Language="zh_Hans_CN">
+			<Text>漫画家</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_AZU_CREATOR" Language="zh_Hans_CN">
+			<Text>东清彦</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_PQ_BASED" Language="zh_Hans_CN">
+			<Text>模组内容基于</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_AZU_BASED" Language="zh_Hans_CN">
+			<Text>阿滋漫画大王 THE ANIMATION</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_PQ_MUSIC" Language="zh_Hans_CN">
+			<Text>音乐</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_AZU_MUSIC" Language="zh_Hans_CN">
+			<Text>栗コーダーカルテット</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_PQ_DECLARATION" Language="zh_Hans_CN">
+			<Text>声明</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_AZU_DECLARATION" Language="zh_Hans_CN">
+			<Text>
+				本模组为粉丝自制的非盈利性创作，基于《阿兹漫画大王》（あずまんが大王）动画内容二次创作，仅用于同好分享。模组中涉及的图像、音乐等素材版权归属于原版权方。
+				若本模组内容涉及版权争议，请联系我，我将在收到正式通知后第一时间删除相关内容。
+			</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_LEADER_PQ_OSAKA_QUOTE" Language="zh_Hans_CN">
+			<Text>Saata Andagi~</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PQ_OSAKA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>春日步诚然慢人一拍，但毫无疑问的，她的与众不同将带她走向一个属于自己的独特世界，那里充满了无限的想象与可能。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PQ_OSAKA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>在高中与海滨别墅的配合下，阿兹漫画大王的悠闲与快乐将创造巨大的 [ICON_Amenities] 宜居度、 [ICON_Science] 科技以及 [ICON_Culture] 文化优势。若春日步能够把握其空想——无政府状态的节奏，那么无论是其“大阪”的身份，还是其空想的灵光一现，都能让她找到真正适合自己的道路。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PQ_OSAKA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>春日步，通称“大阪”，是《阿兹漫画大王》中极具人气的角色。她来自关西地区，因转学至主角们的学校而被大家称为“大阪”，尽管她其实出生于和歌山县。她说话时常常带着关西方言的尾音“や(ya)”，为她增添了几分独特的魅力。大阪的个性悠哉自在，给人一种慢条斯理的感觉。她常常看起来像是在发呆，但实际上她的思绪却在天马行空地飘荡，思考着一些在常人眼中可能无关紧要的事情。她对事物有着一套自己独到的看法，只是这些看法常常难以被常人理解。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PQ_OSAKA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>大阪的学习成绩和运动能力都不算出色，但她却有着一项独特的特技——猜谜。她出色的想象力和独特的思维方式让她在猜谜方面表现出色。此外，她还拥有2.0的视力，这在一定程度上也反映了她对世界的敏锐观察力。大阪与千代关系最为要好，两人经常一起玩耍、聊天，分享彼此的想法和趣事。她的性格和行为方式虽然有时让人摸不着头脑，但正是这种独特的个性让她成为了故事中不可或缺的一员，也深受读者和观众的喜爱。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PQ_OSAKA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在故事之外，大阪的人气极高。她在2002年的日本最萌大赛中获得了亚军，这一成就也证明了她在粉丝心中的地位。此外，她还在作者后续的作品《四叶妹妹》中登场，已经成年并担任教师，展现了她成长后的模样。大阪的形象不仅在漫画和动画中深受喜爱，还成为了许多粉丝创作的灵感来源，有许多以她为主角的同人游戏和书籍。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PQ_CHIYOCHICHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>千代父是一种谜一样的存在，外形酷似黄色的猫，却自称是千代美羽的亲生父亲。他并未出现在现实中，而是多次在榊与大阪的梦境里现身。尽管始终保持着呆滞且嘴巴张开的表情，但他却拥有惊人的表达能力，有时甚至能说出略带奇怪腔调的英语，让梦境中的人一头雾水。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PQ_CHIYOCHICHI_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>千代父情绪变化极快，极易因他人一句话而暴怒。他愤怒时会剧烈震动并变色，带有超现实色彩的行为常常令人难以理解。他对红色极为厌恶，尤其是番茄，但出于对子女健康的执着，又强迫千代将其吃下。作为梦中“父亲”的象征，他一方面表示关爱，另一方面又时常表现出古怪甚至危险的言行。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PQ_CHIYOCHICHI_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>尽管他自称千代的父亲，但他的真实身份从未被证实。动画与漫画中，千代的父母从未露面，使得千代父更像是榊与大阪幻想中，替代“亲情缺席”这一空白的产物。他曾对榊表示“要去寻找真正的猫”，显露出某种自知之明，但在清醒时却完全否认曾说过这句话。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PQ_CHIYOCHICHI_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>他在榊与大阪的梦境中反复出现，有时是热心的长者，有时则像是神秘的预言者，甚至会参与类似圣诞老人的活动或指导人生方向。千代父这一角色虽然荒诞不经，但其象征意义深远，成为《阿兹漫画大王》中幻想与现实、童趣与荒谬交织的代表之一。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_PQ_KOUKOU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>《阿兹漫画大王》的故事主要发生在一所未具名的日本普通高中，校园环境宽敞宁静，氛围自由开放，是一个充满青春气息与日常趣味的舞台。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_PQ_KOUKOU_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在这所高中中，担任主角班级教师的有两位重要角色：年纪轻轻却相当脱线的英语教师谷崎由佳里，以及担任体育老师的黑发女性黑泽美奈茂（喵喵）。两人性格迥异却是多年好友，经常上演令人哭笑不得的教师互动。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_PQ_KOUKOU_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>校内每年都会举办各类传统活动，包括文化祭与运动会。文化祭期间，学生们会以班级为单位策划各种摊位或表演，展示创意与合作精神；而运动会则是热闹非凡的体育盛典，各班竞争激烈但气氛欢乐。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_PQ_KOUKOU_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>此外，学生们还会进行修学旅行，前往冲绳等地观光学习，在过程中发生许多轻松有趣的小插曲。寒暑假则是主要角色们加深友谊、展开户外活动的时光，像是到千代家的别墅度假等。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_PQ_KOUKOU_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>虽然学校本身并无特别设定，但其承载着角色们的成长、羁绊与回忆，成为整部作品温馨气质的核心背景，也是“校园日常”类作品典范中的象征性场所。</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PQ_BESSOU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>美滨千代家族的夏日别墅坐落于海边，是《阿兹漫画大王》中多次登场的重要场景。别墅宽敞奢华，环境优美，作为千代的私人度假场所，常在暑假期间邀请朋友与老师一同前往，留下了许多充满欢笑与荒诞的回忆。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PQ_BESSOU_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在高一暑假，千代首次邀请大阪、阿智、阿历、榊，以及由佳里、黑泽两位老师前往别墅度假。旅途中，由佳里的车技让千代与大阪心有余悸。到达别墅后，众人尝试玩打西瓜、看烟火，大阪还讲了充满反转的恐怖故事，使气氛诡异又搞笑。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PQ_BESSOU_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>高二暑假，神乐首次参与别墅之旅。抵达时，阿智恶作剧将钥匙扔进草丛，引发全员大搜索。夜间，众人参加附近的夏日祭典，千代与榊展示了穿浴衣的技巧。黑泽老师因喝下由佳里与阿智带来的酒类而醉酒，言行失控，还大谈过往情史，令在场学生啼笑皆非。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PQ_BESSOU_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>高三最后一次旅行，香香也加入同行，途中乘坐由佳里车的经历让她与千代一样备感惊恐。此次主要为大学入学考试做复习，但仍充满插曲：阿智干扰他人睡觉、大阪提着菜刀叫醒由佳里、众人做广播体操等。补充章节中还描绘了抓蝉、打排球、观星等温馨又逗趣的片段。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_PQ_BESSOU_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>千代的夏日别墅虽未明确指出地理位置，但其象征着青春与友情的珍贵时光，是主要角色们最放松、最自由展现自我的场所之一，也成为《阿兹漫画大王》中最令人怀念的场景之一。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
+

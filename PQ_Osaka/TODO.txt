@@ -1,0 +1,18 @@
+
+
+
+统一风格，
+如if的条件的括号，
+如插入列表的形式
+如命名风格
+
+提取所有的常数如2，以及所有的常量	local CITY_POP_PER_AMENITY = GameInfo.GlobalParameters['CITY_POP_PER_AMENITY'].Value
+
+统一函数名称，
+统一写入属性的变量名称
+
+
+
+
+
+修改工具函数，返回值如truefor 完成操作

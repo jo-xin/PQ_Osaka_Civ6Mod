@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_Illustration -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/5/2025 8:13:43 PM -->
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_PQ_CHIYOCHICHI" Texture="MOMENT_PQ_CHIYOCHICHI.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_PQ_KOUKOU" Texture="MOMENT_PQ_KOUKOU.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_PQ_BESSOU" Texture="MOMENT_PQ_BESSOU.dds"/>
+	</MomentIllustrations>
+</GameData>

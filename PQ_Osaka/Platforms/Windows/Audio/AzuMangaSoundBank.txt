@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	809031246	PQ_SFX_OMG			\Default Work Unit\SFX\PQ_SFX_OMG	
+	1099460938	Pause_Music_PQ_AZUMANGA			\Music\Pause_Music_PQ_AZUMANGA	
+	1107231721	PQ_SFX_HELLO			\Default Work Unit\SFX\PQ_SFX_HELLO	
+	1690710912	PQ_QUOTE_OSAKA_JIKOSYOUKAI			\Default Work Unit\Quote\PQ_QUOTE_OSAKA_JIKOSYOUKAI	
+	1847614976	Stop_Leader_Music_PQ_AZUMANGA			\Music\Stop_Leader_Music_PQ_AZUMANGA	
+	1985507955	Resume_Music_PQ_AZUMANGA			\Music\Resume_Music_PQ_AZUMANGA	
+	2011583079	PQ_SFX_CHICHI			\Default Work Unit\SFX\PQ_SFX_CHICHI	
+	2899753454	PQ_QUOTE_OSAKA_SAATAANDAGI			\Default Work Unit\Quote\PQ_QUOTE_OSAKA_SAATAANDAGI	
+	2973666780	Start_Music_PQ_AZUMANGA			\Music\Start_Music_PQ_AZUMANGA	
+	3219370874	PQ_SFX_NEKO			\Default Work Unit\SFX\PQ_SFX_NEKO	
+	3770099652	Play_Music_PQ_AZUMANGA			\Music\Play_Music_PQ_AZUMANGA	
+	3860811974	Play_Leader_Music_PQ_AZUMANGA			\Music\Play_Leader_Music_PQ_AZUMANGA	
+	3977610530	Stop_Music_PQ_AZUMANGA			\Music\Stop_Music_PQ_AZUMANGA	
+	4103139750	PQ_SFX_BIRD			\Default Work Unit\SFX\PQ_SFX_BIRD	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	373350295	Game_Location			\Default Work Unit\Game_Location	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20689705	jikosyoukai	C:\Users\71891\Documents\WwiseProjects\AzuMangaBGM\.cache\Windows\SFX\jikosyoukai_7ED96331.wem		\Actor-Mixer Hierarchy\Default Work Unit\jikosyoukai		313264
+	86276979	SaataAndagi	C:\Users\71891\Documents\WwiseProjects\AzuMangaBGM\.cache\Windows\SFX\SaataAndagi_7ED96331.wem		\Actor-Mixer Hierarchy\Default Work Unit\SaataAndagi		130600
+	130984979	OMG	C:\Users\71891\Documents\WwiseProjects\AzuMangaBGM\.cache\Windows\SFX\OMG_7ED96331.wem		\Actor-Mixer Hierarchy\Default Work Unit\OMG		73000
+	594536770	bird	C:\Users\71891\Documents\WwiseProjects\AzuMangaBGM\.cache\Windows\SFX\bird_7ED96331.wem		\Actor-Mixer Hierarchy\Default Work Unit\bird		211600
+	693096998	chichi	C:\Users\71891\Documents\WwiseProjects\AzuMangaBGM\.cache\Windows\SFX\chichi_7ED96331.wem		\Actor-Mixer Hierarchy\Default Work Unit\chichi		183664
+	955617569	neko	C:\Users\71891\Documents\WwiseProjects\AzuMangaBGM\.cache\Windows\SFX\neko_7ED96331.wem		\Actor-Mixer Hierarchy\Default Work Unit\neko		106264
+	968261082	hello	C:\Users\71891\Documents\WwiseProjects\AzuMangaBGM\.cache\Windows\SFX\hello_7ED96331.wem		\Actor-Mixer Hierarchy\Default Work Unit\hello		334864
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	43463448		132274270		205487816		223673677		306087409		369408093		422154203		448496899		553371622		726670782		979149666		1008632856		1049711076	

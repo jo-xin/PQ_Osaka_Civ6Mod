@@ -1,0 +1,19 @@
+Starting AssetCooker...
+Argument '--shaders' has been deprecated and is no longer used.
+XLP cook starting...
+C:\Users\71891\Documents\Firaxis ModBuddy\Civilization VI\PQ_Osaka\PQ_Osaka\XLPs\OveralTexture.xlp
+Opened output file: C:\Users\71891\Documents\My Games\Sid Meier's Civilization VI\Mods\PQ_Osaka\Platforms\MacOS\BLPs/OveralTexture.blp    For XLP: 'C:\Users\71891\Documents\Firaxis ModBuddy\Civilization VI\PQ_Osaka\PQ_Osaka\XLPs\OveralTexture.xlp'
+Could not load digest key: ''.  Using mod key to sign BLP.
+Starting 'OveralTexture'
+Entity: (LEADER_PQ_OSAKA_FRONT_) has class: (Leader_Fallback) which is not allowed in packages of type: (UITexture)
+Loading error asset: (UIErrorTexture)
+Replacing asset: (LEADER_PQ_OSAKA_FRONT_) in entry (LEADER_PQ_OSAKA_FRONT_) with error asset
+The following 1 entities had errors:
+Textures: 1
+    LEADER_PQ_OSAKA_FRONT_
+Load finished for: 'OveralTexture' in 0.015 seconds
+Cook finished for: 'OveralTexture' in 0.163 seconds
+Disk write finished for: 'OveralTexture' in 0.059 seconds
+Cleanup finished for: 'OveralTexture' in 0.002 seconds
+XLP cook completed with success.
+Cook completed in 0.246 seconds

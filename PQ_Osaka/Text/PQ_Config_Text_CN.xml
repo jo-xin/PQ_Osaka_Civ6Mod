@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_Config_Text_CN -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/28/2025 12:03:36 PM -->
+<GameData>
+	<LocalizedText>
+		<!-- Civilization and Leader -->
+		<Row Tag="LOC_CIVILIZATION_PQ_AZUMANGA_NAME" Language="zh_Hans_CN">
+			<Text>阿滋漫画大王</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PQ_AZUMANGA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿滋漫画大王</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_PQ_AZUMANGA_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>阿滋漫画大王的</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_LEADER_PQ_OSAKA_NAME" Language="zh_Hans_CN">
+			<Text>春日步</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_PQ_OSAKA" Language="zh_Hans_CN">
+			<Text>春日步，来自关西的伟大空想家！您缓慢的语调下藏着对世界的好奇，总能在发呆时发现旁人忽视的真理。您大可以悠闲的领导您的人民，不必追赶时间——因为您早已在一次次空想中，为文明铺好了最欢乐的道路。</Text>
+		</Row>
+
+
+		
+		<!-- Traits -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PQ_AZUMANGA_NAME" Language="zh_Hans_CN">
+			<Text>Raspberry heaven</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PQ_AZUMANGA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当文明不含有单位千代父时，下回合会在 [ICON_Capital] 首都出现。每个 [ICON_Amenities] 宜居度提供一点 [ICON_Culture] 文化。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_PQ_OSAKA_NAME" Language="zh_Hans_CN">
+			<Text>来自大阪的空想家</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_PQ_OSAKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有新城市都将视为与 [ICON_Capital] 原始首都异大陆。每次触发 [ICON_CivicBoosted] 鼓舞时，将从已触发 [ICON_TechBoosted] 尤里卡的科技中随机选择一个给予30%的进度。只要曾经更换过政体，每次解锁新政体或者世界进入新的时代时，都将进入无政府状态，结束时获得下一时代的一项 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞。可在完成市政或者结束无政府状态的下一回合免费更换政策或政体，而不是完成市政的当前回合。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU_NAME" Language="zh_Hans_CN">
+			<Text>高中</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>费用更低，可额外从海滨别墅获得巨量 [ICON_Science] 相邻加成、额外从剧院广场以及娱乐中心获得更多 [ICON_Science] 相邻加成，但从山脉获得更少相邻加成。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI_NAME" Language="zh_Hans_CN">
+			<Text>千代父</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以跳的特色单位，随着游戏进行更加强力</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_PQ_BESSOU_NAME" Language="zh_Hans_CN">
+			<Text>海滨别墅</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_PQ_BESSOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>类似于海滨度假区的特色改良设施，额外提供 +1 [ICON_Amenities] 宜居度但 -1 [ICON_Production] 生产力直到教育</Text>
+		</Row>
+
+
+		
+		<!-- Unique -->
+		<Row Tag="LOC_DISTRICT_PQ_KOUKOU_NAME" Language="zh_Hans_CN">
+			<Text>高中</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PQ_KOUKOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿滋漫画大王特色区域，拥有更低的 [ICON_Production] 费用，取代学院区域。可额外从从每个相邻海滨别墅获得巨量相邻加成(+3 [ICON_Science])，从每个娱乐中心、剧院广场获得标准相邻加成(+1 [ICON_Science])，但每个山脉单元格提供少量相邻加成(+0.5 [ICON_Science])。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PQ_CHIYOCHICHI_NAME" Language="zh_Hans_CN">
+			<Text>千代父</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PQ_CHIYOCHICHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿滋漫画大王特色单位，可以跳，不能被生产或购买，不能攻击。为每个时代增加 10 [ICON_Strength] 战斗力，随对世界的探索增加 [ICON_Movement] 机动性。</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PQ_BESSOU_NAME" Language="zh_Hans_CN">
+			<Text>海滨别墅</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_PQ_BESSOU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿滋漫画大王特色改良设施，类似于海滨度假区，但可修建于丘陵。解锁于市政游戏和娱乐。提供 +1 [ICON_Amenities] 宜居度, 等于单元格魅力的 [ICON_Gold] 金币，在解锁科技无线电后提供等量的 [ICON_Tourism] 旅游业绩。但直到科技教育之前都 -1 [ICON_Production] 生产力。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

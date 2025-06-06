@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PQ_Civilization_AzuManga -->
+<!-- Author: 71891 -->
+<!-- DateCreated: 5/2/2025 9:09:46 PM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_PQ_AZUMANGA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_PQ_AZUMANGA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_IMPROVEMENT_PQ_BESSOU" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_PQ_AZUMANGA</CivilizationType>
+			<Name>LOC_CIVILIZATION_PQ_AZUMANGA_NAME</Name>
+			<Description>LOC_CIVILIZATION_PQ_AZUMANGA_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_PQ_AZUMANGA_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" LeaderType="LEADER_PQ_OSAKA" CapitalName="LOC_CITY_NAME_OSAKA" />
+	</CivilizationLeaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_PQ_AZUMANGA" Name="LOC_TRAIT_CIVILIZATION_PQ_AZUMANGA_NAME" Description="LOC_TRAIT_CIVILIZATION_PQ_AZUMANGA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU" Name="LOC_TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU_NAME" Description="LOC_TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI" Name="LOC_TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI_NAME" Description="LOC_TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_IMPROVEMENT_PQ_BESSOU" Name="LOC_TRAIT_IMPROVEMENT_PQ_BESSOU_NAME" Description="LOC_TRAIT_IMPROVEMENT_PQ_BESSOU_DESCRIPTION"/>
+	</Traits>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" TraitType="TRAIT_CIVILIZATION_PQ_AZUMANGA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" TraitType="TRAIT_AZUMANGA_DISTRICT_PQ_KOUKOU"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" TraitType="TRAIT_AZUMANDA_UNIT_PQ_CHIYOCHICHI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" TraitType="TRAIT_IMPROVEMENT_PQ_BESSOU"/>
+	</CivilizationTraits>
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" TerrainType="TERRAIN_COAST" Tier="3"/>
+	</StartBiasTerrains>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" Header="LOC_CIVINFO_PQ_CREATOR" Caption="LOC_CIVINFO_AZU_CREATOR" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" Header="LOC_CIVINFO_PQ_BASED" Caption="LOC_CIVINFO_AZU_BASED" SortIndex="20" />
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" Header="LOC_CIVINFO_PQ_MUSIC" Caption="LOC_CIVINFO_AZU_MUSIC" SortIndex="30" />
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" Header="LOC_CIVINFO_PQ_DECLARATION" Caption="LOC_CIVINFO_AZU_DECLARATION" SortIndex="40" />
+	</CivilizationInfo>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_TOKYO"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_OSAKA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_KYOTO"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_NAGOYA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_FUKUOKA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_SENDAI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_SHIZUOKA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_OKAYAMA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_TAKAMATSU"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_YOKOHAMA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_GIFU"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_NAGANO"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_TAKASAKI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_OTSU"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_AOMORI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_FUKUSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_MORIOKA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_HAKODATE"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_KOBE"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_HAMAMATSU"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_OKAZAKI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_FUKUI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_YAMAGATA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_KAGOSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_HIROSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_HIMEJI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_MATSUMOTO"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_OTA"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_NUMAZU"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_SAPPORO"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_NAGASAKI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_TOTTORI"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CityName="LOC_CITY_NAME_NAGAHAMA"/>
+	</CityNames>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PQ_AZUMANGA" CitizenName="LOC_CITIZEN_JAPAN_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+</GameData>

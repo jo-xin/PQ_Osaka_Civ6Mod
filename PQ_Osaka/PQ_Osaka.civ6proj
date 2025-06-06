@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_PQ_OSAKA_MOD_TITLE</Name>
+    <Guid>4a937839-9eb5-45b6-a16e-db20512b520e</Guid>
+    <ProjectGuid>64e2fe74-0e46-40e8-a814-be53eb270642</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_PQ_OSAKA_MOD_TEASER</Teaser>
+    <Description>Saata Andagi~
+Version 1.1.1</Description>
+    <Authors>Joxin_</Authors>
+    <SpecialThanks>All tutorials, resources and help</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>PQ_Osaka</AssemblyName>
+    <RootNamespace>PQ_Osaka</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="PQFrontEnd_Config"><File>Data/PQ_Config.xml</File></UpdateDatabase><UpdateText id="PQFrontEnd_Text"><File>Text/PQ_Config_Text_CN.xml</File><File>Text/PQ_Config_Text_EN.xml</File></UpdateText><UpdateIcons id="PQFrontEnd_Icon"><File>Data/PQ_Icons.xml</File></UpdateIcons><UpdateArt id="PQFrontEnd_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="PQFrontEnd_Color"><File>Data/PQ_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <LocalizedTextData><![CDATA[<LocalizedText><Text id="LOC_PQ_OSAKA_MOD_TITLE"><en_US>PQ's Ayumu Kasuga(Osaka) from Azumanga Daioh</en_US><zh_Hans_CN>[PQ]  春日步(大阪)  -  阿兹漫画大王</zh_Hans_CN></Text><Text id="LOC_PQ_OSAKA_MOD_TEASER"><en_US>You can now play as Osaka leading AzuManga</en_US><zh_Hans_CN>作为阿兹漫画大王的大阪游玩！</zh_Hans_CN></Text></LocalizedText>]]></LocalizedTextData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="PQInGame_DB"><File>MassProduction/PQ_AzumangaAmenities.sql</File><File>Data/PQ_Unit_ChiyoChichi.xml</File><File>Data/PQ_Unit_ChiyoChichi_MD.sql</File><File>Data/PQ_Osaka_Gameplay.sql</File><File>Data/PQ_Unit_ChiyoChichi.xml</File><File>Data/PQ_Civilization_AzuManga_MD.sql</File><File>Data/PQ_Leader_Osaka.xml</File><File>Data/PQ_District_Koukou.xml</File><File>Data/PQ_Improvement_Bessou.xml</File><File>Data/PQ_Civilization_AzuManga.xml</File></UpdateDatabase><UpdateText id="PQInGame_Text"><File>Text/PQ_Text_CN.xml</File><File>Text/PQ_Text_EN.xml</File><File>Text/PQ_Config_Text_CN.xml</File><File>Text/PQ_Config_Text_EN.xml</File></UpdateText><UpdateIcons id="PQInGame_Icons"><File>Data/PQ_Icons.xml</File></UpdateIcons><UpdateArt id="PQInGame_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="PQInGame_Color"><File>Data/PQ_Colors.xml</File></UpdateColors><AddGameplayScripts id="PQInGame_GamePlay"><File priority="200">Script/PQ_Azumanga_Gameplay.lua</File><File priority="200">Script/PQ_Osaka_GamePlay.lua</File><File priority="200">Script/PQ_Azumanga_Backend.lua</File><File>MassProduction/PQ_AzumangaAmenities.lua</File><File>Script/PQ_Overall.lua</File></AddGameplayScripts><UpdateAudio id="PQInGame_BGM"><File>Platforms/Windows/Audio/AzuMangaSoundBank.ini</File></UpdateAudio><UpdateDatabase id="PQInGame_Illustration"><File>Data/PQ_Illustration.xml</File></UpdateDatabase><AddUserInterfaces id="PQInGame_SFX"><Properties><Context>InGame</Context></Properties><File>UI/PQ_UI_Azumanga_Exploration.xml</File><File>UI/PQ_UI_Osaka_SFX.xml</File></AddUserInterfaces><ImportFiles id="PQInGame_Import"><File>Script/util/PQ_OSAKA_Constants.lua</File><File>Script/util/PQ_OSAKA_Utilities.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="PQ_Osaka.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Civilization_AzuManga.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Civilization_AzuManga_MD.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_District_Koukou.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Illustration.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Improvement_Bessou.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Leader_Osaka.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Osaka_Gameplay.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Unit_ChiyoChichi.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PQ_Unit_ChiyoChichi_MD.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MassProduction\PQ_AzumangaAmenities.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MassProduction\PQ_AzumangaAmenities.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1008632856.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1049711076.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\132274270.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\205487816.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\223673677.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\306087409.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\369408093.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\422154203.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\43463448.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\448496899.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\553371622.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\726670782.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\979149666.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\AzuMangaSoundBank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\AzuMangaSoundBank.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\AzuMangaSoundBank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\AzuMangaSoundBank.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\PluginInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TODO.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Script\PQ_Azumanga_Backend.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Script\PQ_Azumanga_Gameplay.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Script\PQ_Osaka_GamePlay.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Script\PQ_Overall.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Script\util\PQ_OSAKA_Constants.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Script\util\PQ_OSAKA_Utilities.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\PQ_Config_Text_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\PQ_Config_Text_EN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\PQ_Text_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\PQ_Text_EN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\PQ_UI_Azumanga_Exploration.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\PQ_UI_Azumanga_Exploration.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\PQ_UI_Osaka_SFX.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\PQ_UI_Osaka_SFX.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs" />
+    <Folder Include="MassProduction" />
+    <Folder Include="Data" />
+    <Folder Include="Text" />
+    <Folder Include="Script" />
+    <Folder Include="Script\util" />
+    <Folder Include="UI" />
+    <Folder Include="Platforms\" />
+    <Folder Include="Platforms\Windows\" />
+    <Folder Include="Platforms\Windows\Audio\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
