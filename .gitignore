@@ -1,5 +1,8 @@
+*.civ6suo
 *.tex
-*.artdef
 *.xlp
 Cooked/
 PQ_Osaka/Textures/
+PQ_Osaka/Platforms/
+PQ_Osaka/cooker.log
+
