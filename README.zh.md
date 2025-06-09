@@ -100,8 +100,9 @@ docs/changelog/zh/1.1.md
 
 ## 联系方式
 
-- [BiliBil](https://space.bilibili.com/96237361)
 - Email: joxin64@gmail.com
+- [BiliBil](https://space.bilibili.com/96237361)
+- [Steam 创意工坊](https://steamcommunity.com/profiles/76561198819319969/)
 
 ---
 

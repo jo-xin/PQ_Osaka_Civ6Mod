@@ -101,8 +101,9 @@ If you have any copyright concerns, please contact the author for removal or res
 
 ## Contact
 
-- [BiliBil](https://space.bilibili.com/96237361)
 - Email: joxin64@gmail.com
+- [BiliBil](https://space.bilibili.com/96237361)
+- [Steam Workshop](https://steamcommunity.com/profiles/76561198819319969/)
 
 ---
 
