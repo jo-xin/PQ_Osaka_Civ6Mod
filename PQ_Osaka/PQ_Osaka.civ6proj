@@ -22,9 +22,9 @@ Version 1.1.1</Description>
 </Associations>]]></AssociationData>
     <AssemblyName>PQ_Osaka</AssemblyName>
     <RootNamespace>PQ_Osaka</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="PQFrontEnd_Config"><File>Data/PQ_Config.xml</File></UpdateDatabase><UpdateText id="PQFrontEnd_Text"><File>Text/PQ_Config_Text_CN.xml</File><File>Text/PQ_Config_Text_EN.xml</File></UpdateText><UpdateIcons id="PQFrontEnd_Icon"><File>Data/PQ_Icons.xml</File></UpdateIcons><UpdateArt id="PQFrontEnd_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="PQFrontEnd_Color"><File>Data/PQ_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="PQFrontEnd_Config"><File>Data/PQ_Config.xml</File></UpdateDatabase><UpdateText id="PQFrontEnd_Text"><File>Text/PQ_Config_Text_en.xml</File><File>Text/PQ_Config_Text_zh.xml</File></UpdateText><UpdateIcons id="PQFrontEnd_Icon"><File>Data/PQ_Icons.xml</File></UpdateIcons><UpdateArt id="PQFrontEnd_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="PQFrontEnd_Color"><File>Data/PQ_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <LocalizedTextData><![CDATA[<LocalizedText><Text id="LOC_PQ_OSAKA_MOD_TITLE"><en_US>PQ's Ayumu Kasuga(Osaka) from Azumanga Daioh</en_US><zh_Hans_CN>[PQ]  春日步(大阪)  -  阿兹漫画大王</zh_Hans_CN></Text><Text id="LOC_PQ_OSAKA_MOD_TEASER"><en_US>You can now play as Osaka leading AzuManga</en_US><zh_Hans_CN>作为阿兹漫画大王的大阪游玩！</zh_Hans_CN></Text></LocalizedText>]]></LocalizedTextData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="PQInGame_DB"><File>MassProduction/PQ_AzumangaAmenities.sql</File><File>Data/PQ_Unit_ChiyoChichi.xml</File><File>Data/PQ_Unit_ChiyoChichi_MD.sql</File><File>Data/PQ_Osaka_Gameplay.sql</File><File>Data/PQ_Unit_ChiyoChichi.xml</File><File>Data/PQ_Civilization_AzuManga_MD.sql</File><File>Data/PQ_Leader_Osaka.xml</File><File>Data/PQ_District_Koukou.xml</File><File>Data/PQ_Improvement_Bessou.xml</File><File>Data/PQ_Civilization_AzuManga.xml</File></UpdateDatabase><UpdateText id="PQInGame_Text"><File>Text/PQ_Text_CN.xml</File><File>Text/PQ_Text_EN.xml</File><File>Text/PQ_Config_Text_CN.xml</File><File>Text/PQ_Config_Text_EN.xml</File></UpdateText><UpdateIcons id="PQInGame_Icons"><File>Data/PQ_Icons.xml</File></UpdateIcons><UpdateArt id="PQInGame_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="PQInGame_Color"><File>Data/PQ_Colors.xml</File></UpdateColors><AddGameplayScripts id="PQInGame_GamePlay"><File priority="200">Script/PQ_Azumanga_Gameplay.lua</File><File priority="200">Script/PQ_Osaka_GamePlay.lua</File><File priority="200">Script/PQ_Azumanga_Backend.lua</File><File>MassProduction/PQ_AzumangaAmenities.lua</File><File>Script/PQ_Overall.lua</File></AddGameplayScripts><UpdateAudio id="PQInGame_BGM"><File>Platforms/Windows/Audio/AzuMangaSoundBank.ini</File></UpdateAudio><UpdateDatabase id="PQInGame_Illustration"><File>Data/PQ_Illustration.xml</File></UpdateDatabase><AddUserInterfaces id="PQInGame_SFX"><Properties><Context>InGame</Context></Properties><File>UI/PQ_UI_Azumanga_Exploration.xml</File><File>UI/PQ_UI_Osaka_SFX.xml</File></AddUserInterfaces><ImportFiles id="PQInGame_Import"><File>Script/util/PQ_OSAKA_Constants.lua</File><File>Script/util/PQ_OSAKA_Utilities.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="PQInGame_DB"><File>MassProduction/PQ_AzumangaAmenities.sql</File><File>Data/PQ_Unit_ChiyoChichi.xml</File><File>Data/PQ_Unit_ChiyoChichi_MD.sql</File><File>Data/PQ_Osaka_Gameplay.sql</File><File>Data/PQ_Unit_ChiyoChichi.xml</File><File>Data/PQ_Civilization_AzuManga_MD.sql</File><File>Data/PQ_Leader_Osaka.xml</File><File>Data/PQ_District_Koukou.xml</File><File>Data/PQ_Improvement_Bessou.xml</File><File>Data/PQ_Civilization_AzuManga.xml</File></UpdateDatabase><UpdateText id="PQInGame_Text"><File>Text/PQ_Config_Text_en.xml</File><File>Text/PQ_Config_Text_zh.xml</File><File>Text/PQ_Text_en.xml</File><File>Text/PQ_Text_zh.xml</File></UpdateText><UpdateIcons id="PQInGame_Icons"><File>Data/PQ_Icons.xml</File></UpdateIcons><UpdateArt id="PQInGame_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="PQInGame_Color"><File>Data/PQ_Colors.xml</File></UpdateColors><AddGameplayScripts id="PQInGame_GamePlay"><File priority="200">Script/PQ_Azumanga_Gameplay.lua</File><File priority="200">Script/PQ_Osaka_GamePlay.lua</File><File priority="200">Script/PQ_Azumanga_Backend.lua</File><File>MassProduction/PQ_AzumangaAmenities.lua</File><File>Script/PQ_Overall.lua</File></AddGameplayScripts><UpdateAudio id="PQInGame_BGM"><File>Platforms/Windows/Audio/AzuMangaSoundBank.ini</File></UpdateAudio><UpdateDatabase id="PQInGame_Illustration"><File>Data/PQ_Illustration.xml</File></UpdateDatabase><AddUserInterfaces id="PQInGame_SFX"><Properties><Context>InGame</Context></Properties><File>UI/PQ_UI_Azumanga_Exploration.xml</File><File>UI/PQ_UI_Osaka_SFX.xml</File></AddUserInterfaces><ImportFiles id="PQInGame_Import"><File>Script/util/PQ_OSAKA_Constants.lua</File><File>Script/util/PQ_OSAKA_Utilities.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -165,16 +165,16 @@ Version 1.1.1</Description>
     <Content Include="Script\util\PQ_OSAKA_Utilities.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Text\PQ_Config_Text_CN.xml">
+    <Content Include="Text\PQ_Config_Text_zh.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Text\PQ_Config_Text_EN.xml">
+    <Content Include="Text\PQ_Config_Text_en.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Text\PQ_Text_CN.xml">
+    <Content Include="Text\PQ_Text_zh.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Text\PQ_Text_EN.xml">
+    <Content Include="Text\PQ_Text_en.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UI\PQ_UI_Azumanga_Exploration.lua">
