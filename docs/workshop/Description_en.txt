@@ -5,7 +5,9 @@ This mod is a non-profit fan-made project, created for community-sharing purpose
 If any content in this mod infringes upon intellectual property rights, please contact me. I will promptly remove disputed materials upon formal request.
  [/quote]
 
-[hr] Mod Info [/hr]
+[hr][/hr]
+
+[h1] Mod Info [/h1]
 Introducing a new Civilization Azumanga Daioh, and a new Leader Kasuga Ayumu (Osaka)!
 Experience a relaxing playstyle + unique unit Chiyo-Chichi + unique districts and improvements + a set of cozy music from OST!
 
@@ -16,7 +18,7 @@ First major release! A substantial update - check the changelog in GitHub.
 
 [h1] Introduction [/h1]
 Full changelogs & casual development essays available on GitHub:
-[b][url=github.com/Joxin64/Azumanga-Civ6-Mod]Azumanga-Civ6-Mod[/url][/b]
+[b][url=github.com/jo-xin/PQ_Osaka_Civ6Mod]PQ_Osaka_Civ6Mod[/url][/b]
 
 As my first mod, feedback is highly welcomed! Reporting bugs, balancing issues (too strong or too weak), or suggesting new ideas—even asset replacements! Please don't hesitate to share!
 

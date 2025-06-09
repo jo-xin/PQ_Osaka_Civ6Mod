@@ -22,16 +22,16 @@ This repository contains the **mod development project**, including code, XML, S
 
 ## Documentation Structure
 
-This repository also includes a `docs/` directory containing supporting documentation, categorized as follows:
+This repository also includes a [docs](./docs/) directory containing supporting documentation, categorized as follows:
 
-### 📦 `docs/workshop/`
+### 📦 [workshop](./docs/workshop/)
 Steam Workshop page content in multiple languages.  
 
-### 📝 `docs/essays/`
+### 📝 [essays](./docs/essays/)
 Developer essays and notes — informal thoughts, design insights, or postmortems, organized by date (e.g., `2025-05-27.md`).  
 This folder serves as a mod development journal.
 
-### 📋 `docs/changelog/`
+### 📋 [changelog](./docs/changelog/)
 Structured changelogs in Markdown format for each version.
 Organized by major version series and language, for example:
 
