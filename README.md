@@ -1,6 +1,13 @@
 # Azumanga Daioh Civilization VI Mod
 
-*Link to Steam Workshop:* [Azumanga Daioh Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3476784880)
+*Link to Steam Workshop:* [PQ's Ayumu Kasuga(Osaka) from Azumanga Daioh](https://steamcommunity.com/sharedfiles/filedetails/?id=3476784880)
+
+---
+
+## 📖 Language / 语言切换
+
+[![EN](https://img.shields.io/badge/lang-English-blue)](README.md)
+[![ZH](https://img.shields.io/badge/lang-简体中文-red)](README.zh.md)
 
 ---
 
@@ -13,9 +20,31 @@ This repository contains the **mod development project**, including code, XML, S
 
 ---
 
+## Documentation Structure
+
+This repository also includes a `docs/` directory containing supporting documentation, categorized as follows:
+
+### 📦 `docs/workshop/`
+Steam Workshop page content in multiple languages.  
+
+### 📝 `docs/essays/`
+Developer essays and notes — informal thoughts, design insights, or postmortems, organized by date (e.g., `2025-05-27.md`).  
+This folder serves as a mod development journal.
+
+### 📋 `docs/changelog/`
+Structured changelogs in Markdown format for each version.
+Organized by major version series and language, for example:
+
+```
+docs/changelog/en/0.9.md
+docs/changelog/zh/1.1.md
+```
+
+---
+
 ## Features
 
-The codebase is well-documented, and you're welcome to reach out if you have any questions or need further explanation on how specific parts work.
+Most part of the project is documented, and you're welcome to reach out if you have any questions or need further explanation on how specific parts work.
 
 The `MassProduction/` directory includes technical components inspired by [RUIVO](https://steamcommunity.com/profiles/76561198864459088)'s work, particularly from the mod [Modular Adjacency Bonuses Core](https://steamcommunity.com/sharedfiles/filedetails/?id=3429735059).
 
@@ -27,7 +56,7 @@ This repository is intended for mod developers and those interested in the mod's
 
 To build and play the mod:
 
-1. Obtain the necessary visual and audio assets legally from the original sources or Steam Workshop version.
+1. Complement the necessary visual and audio assets from the original sources or Steam Workshop version.
 2. Use Civilization VI's official mod tools (ModBuddy) to compile the mod project here.
 
 ---
@@ -41,7 +70,7 @@ Feel free to use and modify the code for personal, educational, and non-commerci
 
 ### [Assets License](./ASSETS-LICENSE.md)
 
-All visual and audio materials related to *Azumanga Daioh* are the property of their original rights holders, including:
+All visual and audio materials related to *Azumanga Daioh* are the property of their original rights holders, including but not limited to:
 
 - Anime production company J.C.STAFF and associated licensees  
 - Music composed and performed by Kuricorder Quartet
@@ -64,7 +93,7 @@ If you have any copyright concerns, please contact the author for removal or res
 
 - [hemmelfort](https://space.bilibili.com/28399130): For foundational Civilization VI modding tutorials  
 - [UzukiShimamura](https://steamcommunity.com/profiles/76561198402598762): Implementation references  
-- [RUIVO](https://steamcommunity.com/profiles/76561198864459088): Lua mechanics assistance  
+- [RUIVO](https://steamcommunity.com/profiles/76561198864459088): His adjacency mechanics inspired me a lot
 - AI tools (ChatGPT, DeepSeek): Translation and text assistance  
 - [L24](https://space.bilibili.com/3546631957908287): Gameplay testing and feedback  
 

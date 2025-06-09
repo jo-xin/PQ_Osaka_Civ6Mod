@@ -102,7 +102,7 @@ Saata Andagi~
 
 [hr][/hr]
 
-[h1]Special Thanks[/h1]
+[h1]特别鸣谢[/h1]
 [b][url=space.bilibili.com/28399130]hemmelfort[/url][/b]：为文明六中文社区提供了详尽的教程，本模组的几乎全部内容都基于此。
 [b][url=steamcommunity.com/profiles/76561198402598762]UzukiShimamura卯月[/url][/b]：提供的模组模板成为了该模组实现的重要参考，以及其他的重要实现。
 [b][url=steamcommunity.com/profiles/76561198864459088]RUIVO[/url][/b]：其相邻加成的模组提供了我诸多启发，包括如何在lua以及db之间、lua与modifier之间交互。
